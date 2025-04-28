@@ -28,8 +28,8 @@ function App() {
     <div className={style.top_content }>
       <p className={style.sharkTank}>Went to Shark Tank America</p>
       <div className={style.first_marting}>
-        <p>India's first.
-        Marketing School</p>
+      <p>It&apos;s a nice day!</p>
+
       </div>
       <p className={style.zero}>Zero classes, only challenges</p>
       <div className={style.apply_placement}>
