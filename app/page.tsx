@@ -11,18 +11,18 @@ function App() {
     "https://framerusercontent.com/images/Hcq4K69d3mLl5hwv8OXQtByw1VM.png",
     "https://framerusercontent.com/images/crnRqzkJHOgjPfLLMKFdd664r8.png",
     "https://framerusercontent.com/images/Hcq4K69d3mLl5hwv8OXQtByw1VM.png",
-    "https://framerusercontent.com/images/crnRqzkJHOgjPfLLMKFdd664r8.png",
-    "https://framerusercontent.com/images/KgaaHCfaCZtWMJvLIKKu7lw3Gw.png",
+    "https://framerusercontent.com/images/yQCtKMOVmZs4fDTsNRI8ZoI4jjc.png",
+    "https://framerusercontent.com/images/Qqb5Q9SIpmxfkoxdTQRDolGpsQ.png",
     "https://framerusercontent.com/images/EoXL7HjnVqVnwfKrhEXl69s.png",
   ];
 
   return (
     <>
     <div style={{ display: "flex", flexDirection: "column", background:"black", position:"relative" ,zIndex:-1 }}>
-      <InfiniteCarousel images={images} direction="left" speed={20} />
-      <InfiniteCarousel images={images} direction="right" speed={25} />
-      <InfiniteCarousel images={images} direction="left" speed={30} />
-      <InfiniteCarousel images={images} direction="right" speed={35} />
+      <InfiniteCarousel images={images} direction="left" speed={40} />
+      <InfiniteCarousel images={images} direction="right" speed={45} />
+      <InfiniteCarousel images={images} direction="left" speed={50} />
+      <InfiniteCarousel images={images} direction="right" speed={55} />
     </div>
    
     <div className={style.top_content }>

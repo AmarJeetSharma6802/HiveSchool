@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import style from "../style/navbar.module.css"; // Make sure correct path
 
-const InfiniteCarousel = ({ images, direction = "left", speed = 20 }) => {
+const InfiniteCarousel = ({ images, direction = "left", speed = 45 }) => {
   const scrollDirection = direction === "left" ? "normal" : "reverse";
   const tiltRotation = direction === "left" ? "-4deg" : "4deg";
 
