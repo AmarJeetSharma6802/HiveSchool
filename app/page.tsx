@@ -19,10 +19,10 @@ function App() {
   return (
     <>
     <div style={{ display: "flex", flexDirection: "column", background:"black", position:"relative" ,zIndex:-1 }}>
-      <InfiniteCarousel images={images} direction="left" speed={40} />
-      <InfiniteCarousel images={images} direction="right" speed={45} />
-      <InfiniteCarousel images={images} direction="left" speed={50} />
-      <InfiniteCarousel images={images} direction="right" speed={55} />
+      <InfiniteCarousel images={images} direction="left" speed={35} />
+      <InfiniteCarousel images={images} direction="right" speed={40} />
+      <InfiniteCarousel images={images} direction="left" speed={45} />
+      <InfiniteCarousel images={images} direction="right" speed={50} />
     </div>
    
     <div className={style.top_content }>
