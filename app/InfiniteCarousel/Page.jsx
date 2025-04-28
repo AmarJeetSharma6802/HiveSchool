@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import style from "../style/navbar.module.css"; // Make sure correct path
 
 const InfiniteCarousel = ({ images, direction = "left", speed = 20 }) => {
   const scrollDirection = direction === "left" ? "normal" : "reverse";
@@ -21,7 +23,13 @@ const InfiniteCarousel = ({ images, direction = "left", speed = 20 }) => {
       >
         {images.concat(images).map((img, index) => (
           <div className="carousel-item" key={index}>
-            <img src={img} alt={`carousel-${index}`} />
+            <Image
+              src={img}
+              alt={`carousel-${index}`}
+              width={500}
+              height={300}
+              className={style.Image}
+            />
           </div>
         ))}
       </div>

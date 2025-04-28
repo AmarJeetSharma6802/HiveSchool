@@ -1,5 +1,5 @@
 import React from "react";
-import InfiniteCarousel from "./InfiniteCarousel/page";
+import InfiniteCarousel from "./InfiniteCarousel/Page.jsx";
 import style from "./style/navbar.module.css"
 import HomePage from './InfiniteCarousel/HomePage'
 import ThirdSectionHome from "./InfiniteCarousel/ThirdSectionHome"

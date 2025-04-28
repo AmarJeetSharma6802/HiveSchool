@@ -3,7 +3,7 @@
 } */
 .header{
     background-color: black;
-    height: 60px;
+    height: 65px;
     color: rgb(101, 101, 101);
     display: flex;
     justify-content: space-between;
