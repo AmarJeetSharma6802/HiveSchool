@@ -1,0 +1,243 @@
+/* body{
+    position: relative;
+} */
+.header{
+    background-color: black;
+    height: 60px;
+    color: rgb(101, 101, 101);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4rem;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+}
+.Logo_img{
+    width: 140px;
+}
+.navbar{
+    position: relative;
+}
+.navbar_ul{
+    display: flex;
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 50px;
+}
+
+.navbar_li{
+    padding: 14px 15px;
+    
+}
+.navbar_li a{
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+    font-size: 15px;
+    font-weight: 500;
+}
+.inner_ofline_div{
+    background-color: black;
+    position: absolute;
+    top: 55px;
+    width: 600px;
+    left: -20px;
+    display: none;
+    gap: 15px;
+    justify-content: space-around;
+    border-radius: 8px;
+    border: 1px solid rgb(70, 69, 69);
+    padding: 12px;
+z-index: -1;
+opacity: 0;
+transform: translateY(-20px);
+transition: all 0.3s ease-in-out;
+}
+.navbar_li_hover:hover .inner_ofline_div{
+    display: flex;
+    opacity: 1;
+    transform: translateY(0px);
+    z-index: 1;
+}
+
+.inner_offline_flex_div_ul_li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    font-size: 14px;
+    transform: 0.3s;
+}
+.inner_offline_flex_div_ul_li:hover{
+    border-radius: 8px;
+    border: 1px solid rgb(70, 69, 69);
+
+}
+.inner_offline_flex_div_video{
+    display: flex;
+}
+.inner_offline_flex_div_ul_li span svg{
+border: 1px solid rgb(70, 69, 69);
+padding: 5px;
+border-radius: 4px;
+}
+.startBtn{
+    padding: 7px 12px;
+   background: linear-gradient(135deg, rgb(29, 68, 224), rgb(0, 16, 117));
+   border: none;
+   border-radius: 6px;
+   color: white;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.navbar_button_icon{
+    display: none;
+}
+.nav_li_moblie_view{
+    display: none;
+}
+
+.top_content {
+    position: absolute;
+    bottom: 4rem;
+    left: 5rem;
+    color: white;
+}
+.sharkTank{
+    color: rgb(163, 182, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.first_marting{
+    font-size: 5rem;
+    max-width:700px ;
+}
+.zero{
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+.apply_placement{
+    display: flex;
+gap: 10px;
+margin-top: 1rem;
+align-items: center;
+}
+.apply_btn{
+    padding: 12px 20px;
+    background: linear-gradient(274deg, rgb(30, 68, 226) 0%, rgb(0, 16, 117) 100%);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+
+}
+.download_report{
+    background-color:rgb(50, 50, 50) ;
+    padding: 12px 15px ;
+    border-radius: 8px;
+    font-size: 1.2rem;
+
+}
+.svg_handpiking{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 1rem;
+    color: rgb(146, 150, 159);
+}
+
+
+@media (max-width: 768px) {
+.header{
+    padding: 0px 10px;
+    z-index: 99;
+}
+.navbar{
+    position: inherit;
+}
+.Logo_img {
+    width: 120px;
+}
+.navbar_ul{
+    transform: translateY(-120%);
+    position: fixed;
+    left: 0px;
+    top: 60px;
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    border: none;
+    background-color: black;
+    border-radius: inherit;
+    transition: 1s;
+    opacity: 0;
+    z-index: 0;
+}
+.navbar_ul.active{
+    transform: translateY(0);
+    opacity: 1;
+    
+}
+.navbar_button_icon{
+    display: block;
+}
+.navbar_button{
+    display: flex;
+    gap: 12px;
+}
+.navbar_button_icon{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+.navbar_li {
+    padding: 15px ;
+}
+.navbar_li a{
+    color: aliceblue;
+}
+.inner_ofline_div{
+    position: inherit;
+    opacity: 1;
+  transform: inherit;
+  border: none;
+  width: 100%;
+  padding: 0px;
+  left: 0;
+  display: inherit;
+
+}
+.inner_offline_flex_div_ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.inner_offline_flex_div_iframe{
+    display: none;
+}
+.moblie_view_hide{
+    display: none;
+}
+.inner_offline_flex_div_ul_li span p{
+    color: white;
+}
+.navbar_li_hide{
+    display: none;
+}
+.nav_li_moblie_view{
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+}
+.nav_li_moblie_view a{
+    border-radius: 8px;
+    width: 50%;
+    background: rgb(23, 23, 23);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+}

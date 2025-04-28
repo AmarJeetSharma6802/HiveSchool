@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['framerusercontent.com'], // <-- yahan domain allow kar diya
+  },
 };
 
 export default nextConfig;
