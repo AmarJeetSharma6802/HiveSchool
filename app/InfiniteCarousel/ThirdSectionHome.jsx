@@ -132,8 +132,8 @@ function ThirdSectionHome() {
           </p>
           <div className={style.iframe_third_setion}>
           <iframe
-            width="560"
-            height="315"
+            width="300"
+            height="250"
             src="https://www.youtube.com/embed/1bunBze83QM?si=eXgFvv7QXiIOCxVd"
             title="YouTube video player"
             frameBorder="0" // CamelCase

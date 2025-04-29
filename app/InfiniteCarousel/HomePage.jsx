@@ -93,7 +93,7 @@ const HomePage = () => {
             <span
               key={i}
               ref={(el) => (placementRef.current[i] = el)}
-              className={style.word}
+              className={`${style.word} ${style.words}`}
             >
               {char}
             </span>

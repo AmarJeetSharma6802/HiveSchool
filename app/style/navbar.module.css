@@ -240,4 +240,40 @@ align-items: center;
     padding: 10px;
     color: white;
 }
+
+.top_content{
+    left: 1rem;
+    bottom: 2.5rem;
+  }
+  .sharkTank{
+    font-size: 1rem;
+  }
+  .first_marting{
+    font-size: 2.5rem;
+  }
+  .zero{
+    font-size: 16px;
+  }
+  .apply_placement {
+    align-items: inherit;
+    gap: 10px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+/* carocel hide */
+.InfiniteCarousel_mobile_view{  
+    display: none;
+}
+.apply_btn {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    width: 130px;
+}
+.download_report {
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    box-shadow: inset 0px 2px 3px rgba(142, 141, 141, 0.5)
+}
 }

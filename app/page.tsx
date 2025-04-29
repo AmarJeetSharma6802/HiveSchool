@@ -22,7 +22,9 @@ function App() {
       <InfiniteCarousel images={images} direction="left" speed={35} />
       <InfiniteCarousel images={images} direction="right" speed={40} />
       <InfiniteCarousel images={images} direction="left" speed={45} />
+      <div className={style.InfiniteCarousel_mobile_view}>
       <InfiniteCarousel images={images} direction="right" speed={50} />
+      </div>
     </div>
    
     <div className={style.top_content }>

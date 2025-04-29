@@ -266,7 +266,7 @@ function Navbar() {
         <div className={style.navbar_button}>
           <button className={style.startBtn}> Start your journey</button>
           <button className={style.navbar_button_icon} onClick={handleNav}>
-            <i className="fa-solid fa-bars"></i>
+           {activeNav ?   <i className="fa-solid fa-x"></i> : <i className="fa-solid fa-bars"></i>}
           </button>
         </div>
       </header>
